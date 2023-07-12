@@ -1,0 +1,459 @@
+
+.hole_div{
+  background-color: #F8F8F8;
+  overflow: hidden;
+  height: auto;
+  width: 100%; 
+  padding: 20px;
+  font-family: Verdana, sans-serif;
+  } 
+  
+.sidebar{
+  height: auto;
+  width: 4%;
+  background-color: #a95bf1;
+  border-radius: 5px;
+  text-align: center;
+  color: whitesmoke;
+}
+ .sidebaricon{
+  text-decoration: none;
+  color: whitesmoke;
+ }
+
+ .sidebaricon:hover{
+       color: black;
+ }
+.contentbar{
+  height: auto;
+  width: 96%;
+ 
+}
+
+.content_headder{
+  display: inline-flex;
+ width: auto;
+ height: auto;
+}
+ .search_icon{
+ position: relative;
+} 
+.BsSearch{
+   position: relative;
+   left: 30px;
+} 
+.search_icon input {
+  outline: none;
+  text-indent: 30px;
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+}
+.noticf_icon{
+ position: absolute;
+ right: 10px;
+ height: 25px;
+ width: 25px;
+ border-radius: 20px;
+ background-color: #a95bf1;
+ text-align: center;
+}
+
+.Summaryheadder{
+  width: auto;
+  height: auto;
+  font-size: 13px;
+  margin: 20px 0 0 25px;
+}
+
+.Summarydiv{
+  display: flex; 
+  width: auto;
+  height: auto;
+ 
+}
+
+.Summarydivlhs{
+   height: auto;
+   position: relative;
+}
+
+.Summarydivlhs_circle1{
+  border: 1px solid gainsboro;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  position: absolute;
+  left: 30px;
+  top: 40px;
+}
+.Summarydivlhs_smline1{
+  border: 1px solid gainsboro;
+  width: 50px;
+  height: 0;  
+  position: absolute;
+  left: 40px;
+  top: 45px;
+}
+
+.Summarydivlhs_lgline1{
+    border: 1px solid gainsboro;
+    width: 0;
+    height: 200px;
+    position: absolute;
+    left: 34px;
+    top: 49px;
+}
+
+
+.Summarydivlhs_box1{
+  width: 50px;
+  height: 25px;
+  border: 1px solid #d6b6f5;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 90px;
+  top: 32px;
+  text-align: center;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.Summarydivlhs_circle2{
+  border: 1px solid gainsboro;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  position: absolute;
+  left: 30px;
+  top: 249px;
+}
+.Summarydivlhs_smline2{
+  border: 1px solid gainsboro;
+  width: 50px;
+  height: auto;  
+  position: absolute;
+  left: 40px;
+  top: 254px;
+}
+
+.Summarydivlhs_lgline2{
+    border: 1px solid gainsboro;
+    width: 0;
+    height: 200px;
+    position: absolute;
+    left: 34px;
+    top: 258px;
+}
+
+
+.Summarydivlhs_box2{
+  width: 50px;
+  height: 25px;
+  border: 1px solid #d6b6f5;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 90px;
+  top: 243px;
+  text-align: center;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.Summarydivlhs_circle3{
+  border: 1px solid gainsboro;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  position: absolute;
+  left: 30px;
+  top: 458px;
+}
+.Summarydivlhs_smline3{
+  border: 1px solid gainsboro;
+  width: 50px;
+  height: 0;  
+  position: absolute;
+  left: 40px;
+  top: 463px;
+}
+
+.Summarydivlhs_lgline3{
+    border: 1px solid gainsboro;
+    width: 0;
+    height: 202px;
+    position: absolute;
+    left: 35px;
+    top: 467px;
+}
+
+
+.Summarydivlhs_box3{
+  width: 50px;
+  height: 25px;
+  border: 1px solid #d6b6f5;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 90px;
+  top: 451px;
+  text-align: center;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.Summarydivlhs_circle4{
+  border: 1px solid gainsboro;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  position: absolute;
+  left: 30px;
+  top: 668.5px;
+}
+.Summarydivlhs_smline4{
+  border: 1px solid gainsboro;
+  width: 50px;
+  height: 0;  
+  position: absolute;
+  left: 39px;
+  top: 673px;
+}
+
+.Summarydivlhs_box4{
+  width: 50px;
+  height: 25px;
+  border: 1px solid #d6b6f5;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 88px;
+  top: 660px;
+  text-align: center;
+  font-size: 12px;
+  padding: 2px;
+}
+.Summarydivrhs{ 
+height: auto;
+}
+
+.formdiv{
+  display: flex;
+}
+.formdiv div{
+   margin-left: 20px;
+}
+
+.formdiv div input{
+    height: 20px; 
+}
+
+.tablediv table,th,td,tr{
+  border: 1px solid gainsboro;
+  padding: 2px;
+  width: 25%;
+}
+.tablediv table th{
+  background-color: #e9e1f1;
+}
+.tablediv table select{ 
+  outline: none;
+}
+.tablediv table{
+  width: 95%;
+}
+.BsPencil{
+  text-decoration: none;
+  color: #a95bf1;
+  position: absolute;
+  right: 43px;
+}
+.BsPencil:hover{
+  color:#a95bf1 ;
+}
+.RiDeleteBin5Fill{
+  text-decoration: none;
+  color: #ee9898;
+  position: absolute;
+ right: 30px;
+}
+.RiDeleteBin5Fill:hover{
+  color: #ee9898;
+}
+.BsPencil1{
+  text-decoration: none;
+  position: absolute;
+  right: 43px;
+  color: #a95bf1;
+}
+.BsPencil1:hover{
+  color:#a95bf1 ;
+}
+.RiDeleteBin5Fill1{
+  text-decoration: none;
+  color: #ee9898;
+  position: absolute;
+  right: 30px;
+}
+.RiDeleteBin5Fill1:hover{
+  color: #ee9898;
+}
+/* ----------------------------------------------------- */
+@media screen and (max-width:768px) {
+  
+  .sidebar,.search_icon,.noticf_icon{
+    display: none;
+  }
+  /* ----------------------------------------------------- */
+  .Summarydiv{
+    width: 100%;
+    height: 1900px;
+  }
+  /* ----------------------------------------------------- */
+  .Summaryheadder{
+    margin-top: -10px;
+  }
+  /* ----------------------------------------------------- */
+  .Summarydivlhs_lgline1{
+   position: absolute;
+   left: 115px;
+   top: 57px;
+   height: 330px;
+  }
+.Summarydivlhs_lgline2{
+    position: absolute;
+    left: 115px;
+    top: 411px;
+    height: 330px;
+   
+  }
+    .Summarydivlhs_lgline3{
+    position: absolute;
+    left: 115px;
+    top: 766px;
+    height: 330px;
+  }
+  .query_lg_sub{
+   margin-top: 144px;
+  }
+  .query_lg_sub2{
+    margin-top: 290px;
+  }
+  .query_lg_sub3{
+    margin-top: 435px;
+  }
+ /* ----------------------------------------------------- */
+  .summaryDivrhs1{
+   position: relative;
+   top: 40px;
+   left: -30px;
+   background-color:#FFFFFF;
+   width: auto !important;
+   height: auto !important;
+  }
+  .formdiv{
+    display: grid;
+  }
+  .formdiv input,label,select,textarea{
+    font-size: 10px;
+    width: 100% !important;
+  }
+  .formdiv div{
+    padding: 5px;
+  }
+  /* ----------------------------------------------------- */
+   .summaryDivrhs2{
+   position: relative;
+   top: 90px;
+   left: -30px;
+   width: auto !important;
+   height: auto !important;
+   
+  }
+  .summaryDivrhs2_sub{
+    display: grid !important;
+  }
+  .summaryDivrhs2_sub select{
+    width: 100% !important;
+  }
+  .summaryDivrhs2_sub input{
+    width: 100% !important;
+    margin-top: -5px !important;
+  }
+  /* ----------------------------------------------------- */
+  .summaryDivrhs3{
+   position: relative;
+   top: 170px;
+   left: -30px;
+   width: auto !important;
+   height: auto !important;
+   padding: 0 10px 5px 0;
+  }
+  .summaryDivrhs3 input{
+    width: 100% !important;
+  }
+  .summaryDivrhs3 table{
+    font-size: 7px;
+    width: 100% !important;
+    height: 150px !important;
+  }
+  
+  /* ----------------------------------------------------- */
+  .summaryDivrhs4{
+    position: relative;
+    left: -30px;
+    top: 260px;
+    width: auto !important;
+    height: auto !important;
+  }  
+  .summaryDivrhs4 div{
+    width: 100% !important;
+    font-size: 9px !important;
+  }
+  .summaryDivrhs4 textarea,input{
+    width: 91% !important ;
+  }
+  .summaryDivrhs4 select{
+    width: 90% !important;
+  }
+  .refreshicon{
+    position: absolute;
+    top: 0px;
+  }
+  .refreshicon p {
+    font-size: 7px;
+  }
+  .addbutton button{
+     position: absolute;
+     right: 10px;
+  }
+  .Meeting_Inputs_div{
+    margin-top: 5px !important;
+  }
+  .summaryDivrhs4 div:first-child{
+    display: inline-block !important;
+  }
+  .summaryDivrhs4 label{
+     margin-top: 10px !important;
+  }
+  .summaryDivrhs4_sub{
+    display: inline-block !important;
+  }
+  .summaryDivrhs4_sub1{
+    height: auto !important;
+    margin-left: -1px !important;
+  }
+  .summaryDivrhs4_sub1 p {
+    padding: 5px;
+  }
+  .summaryDivrhs4_sub2{
+    height: auto !important;
+    margin-left: -1px !important;
+  }
+  .summaryDivrhs4_sub2 p {
+    padding: 5px;
+  }
+ 
+  /* ----------------------------------------------------- */
+}
